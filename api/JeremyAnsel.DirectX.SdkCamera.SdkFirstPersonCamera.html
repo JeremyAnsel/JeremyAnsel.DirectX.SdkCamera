@@ -1,0 +1,764 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SdkFirstPersonCamera
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SdkFirstPersonCamera
+   ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera">
+  
+  
+  <h1 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera" class="text-break">Class SdkFirstPersonCamera
+  </h1>
+  <div class="markdown level0 summary"><p>Simple first person camera class that moves and rotates.
+It allows yaw and pitch but not roll.  It uses WM_KEYDOWN and GetCursorPos() to respond to keyboard and mouse input and updates the view matrix based on input.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html">SdkBaseCamera</a></div>
+    <div class="level2"><span class="xref">SdkFirstPersonCamera</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_isActive">SdkBaseCamera.m_isActive</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_mView">SdkBaseCamera.m_mView</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_mProj">SdkBaseCamera.m_mProj</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_cKeysDown">SdkBaseCamera.m_cKeysDown</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_aKeys">SdkBaseCamera.m_aKeys</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vKeyboardDirection">SdkBaseCamera.m_vKeyboardDirection</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_ptLastMousePosition">SdkBaseCamera.m_ptLastMousePosition</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_nCurrentButtonMask">SdkBaseCamera.m_nCurrentButtonMask</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_nMouseWheelDelta">SdkBaseCamera.m_nMouseWheelDelta</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vMouseDelta">SdkBaseCamera.m_vMouseDelta</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fFramesToSmoothMouseData">SdkBaseCamera.m_fFramesToSmoothMouseData</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vDefaultEye">SdkBaseCamera.m_vDefaultEye</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vDefaultLookAt">SdkBaseCamera.m_vDefaultLookAt</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vEye">SdkBaseCamera.m_vEye</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vLookAt">SdkBaseCamera.m_vLookAt</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fCameraYawAngle">SdkBaseCamera.m_fCameraYawAngle</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fCameraPitchAngle">SdkBaseCamera.m_fCameraPitchAngle</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_rcDrag">SdkBaseCamera.m_rcDrag</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vVelocity">SdkBaseCamera.m_vVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vVelocityDrag">SdkBaseCamera.m_vVelocityDrag</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fDragTimer">SdkBaseCamera.m_fDragTimer</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fTotalDragTimeToZero">SdkBaseCamera.m_fTotalDragTimeToZero</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vRotVelocity">SdkBaseCamera.m_vRotVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fFOV">SdkBaseCamera.m_fFOV</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fAspect">SdkBaseCamera.m_fAspect</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fNearPlane">SdkBaseCamera.m_fNearPlane</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fFarPlane">SdkBaseCamera.m_fFarPlane</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fRotationScaler">SdkBaseCamera.m_fRotationScaler</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_fMoveScaler">SdkBaseCamera.m_fMoveScaler</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_bMouseLButtonDown">SdkBaseCamera.m_bMouseLButtonDown</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_bMouseMButtonDown">SdkBaseCamera.m_bMouseMButtonDown</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_bMouseRButtonDown">SdkBaseCamera.m_bMouseRButtonDown</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_bMovementDrag">SdkBaseCamera.m_bMovementDrag</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_bInvertPitch">SdkBaseCamera.m_bInvertPitch</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_bEnablePositionMovement">SdkBaseCamera.m_bEnablePositionMovement</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_bEnableYAxisMovement">SdkBaseCamera.m_bEnableYAxisMovement</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_bClipToBoundary">SdkBaseCamera.m_bClipToBoundary</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_bResetCursorAfterMove">SdkBaseCamera.m_bResetCursorAfterMove</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vMinBoundary">SdkBaseCamera.m_vMinBoundary</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_m_vMaxBoundary">SdkBaseCamera.m_vMaxBoundary</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_HandleMessages_System_IntPtr_WindowMessageType_System_IntPtr_System_IntPtr_">SdkBaseCamera.HandleMessages(IntPtr, WindowMessageType, IntPtr, IntPtr)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_Reset">SdkBaseCamera.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetViewParams_XMVector_XMVector_">SdkBaseCamera.SetViewParams(XMVector, XMVector)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetProjParams_System_Single_System_Single_System_Single_System_Single_">SdkBaseCamera.SetProjParams(Single, Single, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetDragRect_XMInt4_">SdkBaseCamera.SetDragRect(XMInt4)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetInvertPitch_System_Boolean_">SdkBaseCamera.SetInvertPitch(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetDrag_System_Boolean_">SdkBaseCamera.SetDrag(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetDrag_System_Boolean_System_Single_">SdkBaseCamera.SetDrag(Boolean, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetEnableYAxisMovement_System_Boolean_">SdkBaseCamera.SetEnableYAxisMovement(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetEnablePositionMovement_System_Boolean_">SdkBaseCamera.SetEnablePositionMovement(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetClipToBoundary_System_Boolean_">SdkBaseCamera.SetClipToBoundary(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetClipToBoundary_System_Boolean_System_Nullable_XMFloat3__System_Nullable_XMFloat3__">SdkBaseCamera.SetClipToBoundary(Boolean, Nullable&lt;XMFloat3&gt;, Nullable&lt;XMFloat3&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetScalers">SdkBaseCamera.SetScalers()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetScalers_System_Single_System_Single_">SdkBaseCamera.SetScalers(Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetNumberOfFramesToSmoothMouseData_System_Int32_">SdkBaseCamera.SetNumberOfFramesToSmoothMouseData(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetResetCursorAfterMove_System_Boolean_">SdkBaseCamera.SetResetCursorAfterMove(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_GetViewMatrix">SdkBaseCamera.GetViewMatrix()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_GetProjMatrix">SdkBaseCamera.GetProjMatrix()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_GetLookAtPt">SdkBaseCamera.GetLookAtPt()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_GetNearClip">SdkBaseCamera.GetNearClip()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_GetFarClip">SdkBaseCamera.GetFarClip()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_IsBeingDragged">SdkBaseCamera.IsBeingDragged()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_IsMouseLButtonDown">SdkBaseCamera.IsMouseLButtonDown()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_IsMouseMButtonDown">SdkBaseCamera.IsMouseMButtonDown()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_IsMouseRButtonDown">SdkBaseCamera.IsMouseRButtonDown()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_MapKey_VirtualKey_">SdkBaseCamera.MapKey(VirtualKey)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_IsKeyDown_JeremyAnsel_DirectX_SdkCamera_SdkCameraKeyStates_">SdkBaseCamera.IsKeyDown(SdkCameraKeyStates)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_WasKeyDown_JeremyAnsel_DirectX_SdkCamera_SdkCameraKeyStates_">SdkBaseCamera.WasKeyDown(SdkCameraKeyStates)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_ConstrainToBoundary_XMVector_">SdkBaseCamera.ConstrainToBoundary(XMVector)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_UpdateMouseDelta">SdkBaseCamera.UpdateMouseDelta()</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_UpdateVelocity_System_Double_">SdkBaseCamera.UpdateVelocity(Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_GetInput_System_Boolean_System_Boolean_">SdkBaseCamera.GetInput(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="JeremyAnsel.DirectX.SdkCamera.html">JeremyAnsel.DirectX.SdkCamera</a></h6>
+  <h6><strong>Assembly</strong>: JeremyAnsel.DirectX.SdkCamera.dll</h6>
+  <h5 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SdkFirstPersonCamera : SdkBaseCamera</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera__ctor.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L21">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera__ctor_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.#ctor*"></a>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera__ctor" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.#ctor">SdkFirstPersonCamera()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SdkFirstPersonCamera()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_m_bRotateWithoutButtonDown.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.m_bRotateWithoutButtonDown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L19">View Source</a>
+  </span>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_m_bRotateWithoutButtonDown" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.m_bRotateWithoutButtonDown">m_bRotateWithoutButtonDown</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool m_bRotateWithoutButtonDown</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_m_mCameraWorld.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.m_mCameraWorld%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L14">View Source</a>
+  </span>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_m_mCameraWorld" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.m_mCameraWorld">m_mCameraWorld</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected XMMatrix m_mCameraWorld</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XMMatrix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_m_nActiveButtonMask.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.m_nActiveButtonMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L17">View Source</a>
+  </span>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_m_nActiveButtonMask" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.m_nActiveButtonMask">m_nActiveButtonMask</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MouseKeys m_nActiveButtonMask</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MouseKeys</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_FrameMove_System_Double_.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.FrameMove(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L26">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_FrameMove_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.FrameMove*"></a>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_FrameMove_System_Double_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.FrameMove(System.Double)">FrameMove(Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void FrameMove(double fElapsedTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td><span class="parametername">fElapsedTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_FrameMove_System_Double_">SdkBaseCamera.FrameMove(Double)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetEyePt.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetEyePt%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L142">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetEyePt_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetEyePt*"></a>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetEyePt" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetEyePt">GetEyePt()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XMVector GetEyePt()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XMVector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldAheads.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldAheads%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L137">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldAheads_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldAheads*"></a>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldAheads" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldAheads">GetWorldAheads()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XMVector GetWorldAheads()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XMVector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldMatrix.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldMatrix%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L122">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldMatrix_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldMatrix*"></a>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldMatrix" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldMatrix">GetWorldMatrix()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XMMatrix GetWorldMatrix()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XMMatrix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldRight.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldRight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L127">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldRight_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldRight*"></a>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldRight" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldRight">GetWorldRight()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XMVector GetWorldRight()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XMVector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldUp.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldUp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L132">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldUp_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldUp*"></a>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_GetWorldUp" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.GetWorldUp">GetWorldUp()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XMVector GetWorldUp()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">XMVector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_SetRotateButtons_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.SetRotateButtons(System.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L108">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_SetRotateButtons_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.SetRotateButtons*"></a>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_SetRotateButtons_System_Boolean_System_Boolean_System_Boolean_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.SetRotateButtons(System.Boolean,System.Boolean,System.Boolean)">SetRotateButtons(Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRotateButtons(bool bLeft, bool bMiddle, bool bRight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">bLeft</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">bMiddle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">bRight</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_SetRotateButtons_System_Boolean_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.SetRotateButtons(System.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L113">View Source</a>
+  </span>
+  <a id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_SetRotateButtons_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.SetRotateButtons*"></a>
+  <h4 id="JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera_SetRotateButtons_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.SetRotateButtons(System.Boolean,System.Boolean,System.Boolean,System.Boolean)">SetRotateButtons(Boolean, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRotateButtons(bool bLeft, bool bMiddle, bool bRight, bool bRotateWithoutButtonDown)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">bLeft</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">bMiddle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">bRight</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">bRotateWithoutButtonDown</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/new/master/apiSpec/new?filename=JeremyAnsel_DirectX_SdkCamera_SdkFirstPersonCamera.md&amp;value=---%0Auid%3A%20JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkCamera/blob/master/JeremyAnsel.DirectX.SdkCamera/JeremyAnsel.DirectX.SdkCamera/SdkFirstPersonCamera.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
