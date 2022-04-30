@@ -78,11 +78,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.GetTranslationMatrix
   nameWithType: SdkArcBall.GetTranslationMatrix
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.HandleMessages(System.IntPtr,WindowMessageType,System.IntPtr,System.IntPtr)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.HandleMessages(System.IntPtr,JeremyAnsel.DirectX.Window.WindowMessageType,System.IntPtr,System.IntPtr)
   name: HandleMessages(IntPtr, WindowMessageType, IntPtr, IntPtr)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html#JeremyAnsel_DirectX_SdkCamera_SdkArcBall_HandleMessages_System_IntPtr_WindowMessageType_System_IntPtr_System_IntPtr_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkArcBall.HandleMessages(System.IntPtr,WindowMessageType,System.IntPtr,System.IntPtr)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.HandleMessages(System.IntPtr, WindowMessageType, System.IntPtr, System.IntPtr)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html#JeremyAnsel_DirectX_SdkCamera_SdkArcBall_HandleMessages_System_IntPtr_JeremyAnsel_DirectX_Window_WindowMessageType_System_IntPtr_System_IntPtr_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkArcBall.HandleMessages(System.IntPtr,JeremyAnsel.DirectX.Window.WindowMessageType,System.IntPtr,System.IntPtr)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.HandleMessages(System.IntPtr, JeremyAnsel.DirectX.Window.WindowMessageType, System.IntPtr, System.IntPtr)
   nameWithType: SdkArcBall.HandleMessages(IntPtr, WindowMessageType, IntPtr, IntPtr)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.HandleMessages*
   name: HandleMessages
@@ -233,11 +233,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.OnMove
   nameWithType: SdkArcBall.OnMove
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.QuatFromBallPoints(XMVector,XMVector)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.QuatFromBallPoints(JeremyAnsel.DirectX.DXMath.XMVector,JeremyAnsel.DirectX.DXMath.XMVector)
   name: QuatFromBallPoints(XMVector, XMVector)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html#JeremyAnsel_DirectX_SdkCamera_SdkArcBall_QuatFromBallPoints_XMVector_XMVector_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkArcBall.QuatFromBallPoints(XMVector,XMVector)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.QuatFromBallPoints(XMVector, XMVector)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html#JeremyAnsel_DirectX_SdkCamera_SdkArcBall_QuatFromBallPoints_JeremyAnsel_DirectX_DXMath_XMVector_JeremyAnsel_DirectX_DXMath_XMVector_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkArcBall.QuatFromBallPoints(JeremyAnsel.DirectX.DXMath.XMVector,JeremyAnsel.DirectX.DXMath.XMVector)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.QuatFromBallPoints(JeremyAnsel.DirectX.DXMath.XMVector, JeremyAnsel.DirectX.DXMath.XMVector)
   nameWithType: SdkArcBall.QuatFromBallPoints(XMVector, XMVector)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.QuatFromBallPoints*
   name: QuatFromBallPoints
@@ -285,11 +285,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.SetOffset
   nameWithType: SdkArcBall.SetOffset
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.SetQuatNow(XMVector)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.SetQuatNow(JeremyAnsel.DirectX.DXMath.XMVector)
   name: SetQuatNow(XMVector)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html#JeremyAnsel_DirectX_SdkCamera_SdkArcBall_SetQuatNow_XMVector_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkArcBall.SetQuatNow(XMVector)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.SetQuatNow(XMVector)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html#JeremyAnsel_DirectX_SdkCamera_SdkArcBall_SetQuatNow_JeremyAnsel_DirectX_DXMath_XMVector_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkArcBall.SetQuatNow(JeremyAnsel.DirectX.DXMath.XMVector)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.SetQuatNow(JeremyAnsel.DirectX.DXMath.XMVector)
   nameWithType: SdkArcBall.SetQuatNow(XMVector)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkArcBall.SetQuatNow*
   name: SetQuatNow
@@ -349,11 +349,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SdkBaseCamera
   nameWithType: SdkBaseCamera.SdkBaseCamera
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.ConstrainToBoundary(XMVector)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.ConstrainToBoundary(JeremyAnsel.DirectX.DXMath.XMVector)
   name: ConstrainToBoundary(XMVector)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_ConstrainToBoundary_XMVector_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.ConstrainToBoundary(XMVector)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.ConstrainToBoundary(XMVector)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_ConstrainToBoundary_JeremyAnsel_DirectX_DXMath_XMVector_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.ConstrainToBoundary(JeremyAnsel.DirectX.DXMath.XMVector)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.ConstrainToBoundary(JeremyAnsel.DirectX.DXMath.XMVector)
   nameWithType: SdkBaseCamera.ConstrainToBoundary(XMVector)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.ConstrainToBoundary*
   name: ConstrainToBoundary
@@ -466,11 +466,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.GetViewMatrix
   nameWithType: SdkBaseCamera.GetViewMatrix
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.HandleMessages(System.IntPtr,WindowMessageType,System.IntPtr,System.IntPtr)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.HandleMessages(System.IntPtr,JeremyAnsel.DirectX.Window.WindowMessageType,System.IntPtr,System.IntPtr)
   name: HandleMessages(IntPtr, WindowMessageType, IntPtr, IntPtr)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_HandleMessages_System_IntPtr_WindowMessageType_System_IntPtr_System_IntPtr_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.HandleMessages(System.IntPtr,WindowMessageType,System.IntPtr,System.IntPtr)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.HandleMessages(System.IntPtr, WindowMessageType, System.IntPtr, System.IntPtr)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_HandleMessages_System_IntPtr_JeremyAnsel_DirectX_Window_WindowMessageType_System_IntPtr_System_IntPtr_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.HandleMessages(System.IntPtr,JeremyAnsel.DirectX.Window.WindowMessageType,System.IntPtr,System.IntPtr)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.HandleMessages(System.IntPtr, JeremyAnsel.DirectX.Window.WindowMessageType, System.IntPtr, System.IntPtr)
   nameWithType: SdkBaseCamera.HandleMessages(IntPtr, WindowMessageType, IntPtr, IntPtr)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.HandleMessages*
   name: HandleMessages
@@ -784,11 +784,11 @@ references:
   commentId: F:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.m_vVelocityDrag
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.m_vVelocityDrag
   nameWithType: SdkBaseCamera.m_vVelocityDrag
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.MapKey(VirtualKey)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.MapKey(JeremyAnsel.DirectX.Window.VirtualKey)
   name: MapKey(VirtualKey)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_MapKey_VirtualKey_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.MapKey(VirtualKey)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.MapKey(VirtualKey)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_MapKey_JeremyAnsel_DirectX_Window_VirtualKey_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.MapKey(JeremyAnsel.DirectX.Window.VirtualKey)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.MapKey(JeremyAnsel.DirectX.Window.VirtualKey)
   nameWithType: SdkBaseCamera.MapKey(VirtualKey)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.MapKey*
   name: MapKey
@@ -816,13 +816,13 @@ references:
   commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean)
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean)
   nameWithType: SdkBaseCamera.SetClipToBoundary(Boolean)
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean,System.Nullable{XMFloat3},System.Nullable{XMFloat3})
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean,System.Nullable{JeremyAnsel.DirectX.DXMath.XMFloat3},System.Nullable{JeremyAnsel.DirectX.DXMath.XMFloat3})
   name: SetClipToBoundary(Boolean, Nullable<XMFloat3>, Nullable<XMFloat3>)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetClipToBoundary_System_Boolean_System_Nullable_XMFloat3__System_Nullable_XMFloat3__
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean,System.Nullable{XMFloat3},System.Nullable{XMFloat3})
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetClipToBoundary_System_Boolean_System_Nullable_JeremyAnsel_DirectX_DXMath_XMFloat3__System_Nullable_JeremyAnsel_DirectX_DXMath_XMFloat3__
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean,System.Nullable{JeremyAnsel.DirectX.DXMath.XMFloat3},System.Nullable{JeremyAnsel.DirectX.DXMath.XMFloat3})
   name.vb: SetClipToBoundary(Boolean, Nullable(Of XMFloat3), Nullable(Of XMFloat3))
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean, System.Nullable<XMFloat3>, System.Nullable<XMFloat3>)
-  fullName.vb: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean, System.Nullable(Of XMFloat3), System.Nullable(Of XMFloat3))
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean, System.Nullable<JeremyAnsel.DirectX.DXMath.XMFloat3>, System.Nullable<JeremyAnsel.DirectX.DXMath.XMFloat3>)
+  fullName.vb: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary(System.Boolean, System.Nullable(Of JeremyAnsel.DirectX.DXMath.XMFloat3), System.Nullable(Of JeremyAnsel.DirectX.DXMath.XMFloat3))
   nameWithType: SdkBaseCamera.SetClipToBoundary(Boolean, Nullable<XMFloat3>, Nullable<XMFloat3>)
   nameWithType.vb: SdkBaseCamera.SetClipToBoundary(Boolean, Nullable(Of XMFloat3), Nullable(Of XMFloat3))
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetClipToBoundary*
@@ -851,11 +851,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetDrag
   nameWithType: SdkBaseCamera.SetDrag
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetDragRect(XMInt4)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetDragRect(JeremyAnsel.DirectX.DXMath.XMInt4)
   name: SetDragRect(XMInt4)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetDragRect_XMInt4_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetDragRect(XMInt4)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetDragRect(XMInt4)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetDragRect_JeremyAnsel_DirectX_DXMath_XMInt4_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetDragRect(JeremyAnsel.DirectX.DXMath.XMInt4)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetDragRect(JeremyAnsel.DirectX.DXMath.XMInt4)
   nameWithType: SdkBaseCamera.SetDragRect(XMInt4)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetDragRect*
   name: SetDragRect
@@ -961,11 +961,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetScalers
   nameWithType: SdkBaseCamera.SetScalers
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetViewParams(XMVector,XMVector)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetViewParams(JeremyAnsel.DirectX.DXMath.XMVector,JeremyAnsel.DirectX.DXMath.XMVector)
   name: SetViewParams(XMVector, XMVector)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetViewParams_XMVector_XMVector_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetViewParams(XMVector,XMVector)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetViewParams(XMVector, XMVector)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkBaseCamera_SetViewParams_JeremyAnsel_DirectX_DXMath_XMVector_JeremyAnsel_DirectX_DXMath_XMVector_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetViewParams(JeremyAnsel.DirectX.DXMath.XMVector,JeremyAnsel.DirectX.DXMath.XMVector)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetViewParams(JeremyAnsel.DirectX.DXMath.XMVector, JeremyAnsel.DirectX.DXMath.XMVector)
   nameWithType: SdkBaseCamera.SetViewParams(XMVector, XMVector)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.SetViewParams*
   name: SetViewParams
@@ -1306,11 +1306,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.GetWorldMatrix
   nameWithType: SdkModelViewerCamera.GetWorldMatrix
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.HandleMessages(System.IntPtr,WindowMessageType,System.IntPtr,System.IntPtr)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.HandleMessages(System.IntPtr,JeremyAnsel.DirectX.Window.WindowMessageType,System.IntPtr,System.IntPtr)
   name: HandleMessages(IntPtr, WindowMessageType, IntPtr, IntPtr)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_HandleMessages_System_IntPtr_WindowMessageType_System_IntPtr_System_IntPtr_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.HandleMessages(System.IntPtr,WindowMessageType,System.IntPtr,System.IntPtr)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.HandleMessages(System.IntPtr, WindowMessageType, System.IntPtr, System.IntPtr)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_HandleMessages_System_IntPtr_JeremyAnsel_DirectX_Window_WindowMessageType_System_IntPtr_System_IntPtr_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.HandleMessages(System.IntPtr,JeremyAnsel.DirectX.Window.WindowMessageType,System.IntPtr,System.IntPtr)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.HandleMessages(System.IntPtr, JeremyAnsel.DirectX.Window.WindowMessageType, System.IntPtr, System.IntPtr)
   nameWithType: SdkModelViewerCamera.HandleMessages(IntPtr, WindowMessageType, IntPtr, IntPtr)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.HandleMessages*
   name: HandleMessages
@@ -1472,11 +1472,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetButtonMasks
   nameWithType: SdkModelViewerCamera.SetButtonMasks
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetDragRect(XMInt4)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetDragRect(JeremyAnsel.DirectX.DXMath.XMInt4)
   name: SetDragRect(XMInt4)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetDragRect_XMInt4_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetDragRect(XMInt4)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetDragRect(XMInt4)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetDragRect_JeremyAnsel_DirectX_DXMath_XMInt4_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetDragRect(JeremyAnsel.DirectX.DXMath.XMInt4)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetDragRect(JeremyAnsel.DirectX.DXMath.XMInt4)
   nameWithType: SdkModelViewerCamera.SetDragRect(XMInt4)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetDragRect*
   name: SetDragRect
@@ -1498,11 +1498,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetLimitPitch
   nameWithType: SdkModelViewerCamera.SetLimitPitch
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetModelCenter(XMFloat3)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetModelCenter(JeremyAnsel.DirectX.DXMath.XMFloat3)
   name: SetModelCenter(XMFloat3)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetModelCenter_XMFloat3_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetModelCenter(XMFloat3)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetModelCenter(XMFloat3)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetModelCenter_JeremyAnsel_DirectX_DXMath_XMFloat3_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetModelCenter(JeremyAnsel.DirectX.DXMath.XMFloat3)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetModelCenter(JeremyAnsel.DirectX.DXMath.XMFloat3)
   nameWithType: SdkModelViewerCamera.SetModelCenter(XMFloat3)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetModelCenter*
   name: SetModelCenter
@@ -1536,11 +1536,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetRadius
   nameWithType: SdkModelViewerCamera.SetRadius
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewParams(XMVector,XMVector)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewParams(JeremyAnsel.DirectX.DXMath.XMVector,JeremyAnsel.DirectX.DXMath.XMVector)
   name: SetViewParams(XMVector, XMVector)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetViewParams_XMVector_XMVector_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewParams(XMVector,XMVector)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewParams(XMVector, XMVector)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetViewParams_JeremyAnsel_DirectX_DXMath_XMVector_JeremyAnsel_DirectX_DXMath_XMVector_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewParams(JeremyAnsel.DirectX.DXMath.XMVector,JeremyAnsel.DirectX.DXMath.XMVector)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewParams(JeremyAnsel.DirectX.DXMath.XMVector, JeremyAnsel.DirectX.DXMath.XMVector)
   nameWithType: SdkModelViewerCamera.SetViewParams(XMVector, XMVector)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewParams*
   name: SetViewParams
@@ -1549,11 +1549,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewParams
   nameWithType: SdkModelViewerCamera.SetViewParams
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewQuat(XMVector)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewQuat(JeremyAnsel.DirectX.DXMath.XMVector)
   name: SetViewQuat(XMVector)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetViewQuat_XMVector_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewQuat(XMVector)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewQuat(XMVector)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetViewQuat_JeremyAnsel_DirectX_DXMath_XMVector_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewQuat(JeremyAnsel.DirectX.DXMath.XMVector)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewQuat(JeremyAnsel.DirectX.DXMath.XMVector)
   nameWithType: SdkModelViewerCamera.SetViewQuat(XMVector)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetViewQuat*
   name: SetViewQuat
@@ -1581,11 +1581,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWindow
   nameWithType: SdkModelViewerCamera.SetWindow
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldMatrix(XMMatrix)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldMatrix(JeremyAnsel.DirectX.DXMath.XMMatrix)
   name: SetWorldMatrix(XMMatrix)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetWorldMatrix_XMMatrix_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldMatrix(XMMatrix)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldMatrix(XMMatrix)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetWorldMatrix_JeremyAnsel_DirectX_DXMath_XMMatrix_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldMatrix(JeremyAnsel.DirectX.DXMath.XMMatrix)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldMatrix(JeremyAnsel.DirectX.DXMath.XMMatrix)
   nameWithType: SdkModelViewerCamera.SetWorldMatrix(XMMatrix)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldMatrix*
   name: SetWorldMatrix
@@ -1594,11 +1594,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldMatrix
   nameWithType: SdkModelViewerCamera.SetWorldMatrix
-- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldQuat(XMVector)
+- uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldQuat(JeremyAnsel.DirectX.DXMath.XMVector)
   name: SetWorldQuat(XMVector)
-  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetWorldQuat_XMVector_
-  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldQuat(XMVector)
-  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldQuat(XMVector)
+  href: api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html#JeremyAnsel_DirectX_SdkCamera_SdkModelViewerCamera_SetWorldQuat_JeremyAnsel_DirectX_DXMath_XMVector_
+  commentId: M:JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldQuat(JeremyAnsel.DirectX.DXMath.XMVector)
+  fullName: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldQuat(JeremyAnsel.DirectX.DXMath.XMVector)
   nameWithType: SdkModelViewerCamera.SetWorldQuat(XMVector)
 - uid: JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.SetWorldQuat*
   name: SetWorldQuat

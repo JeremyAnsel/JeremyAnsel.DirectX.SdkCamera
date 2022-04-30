@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html",
-          "hash": "SLDspJu4zw8SnLSZoIzrvA=="
+          "hash": "z2PsbOJNtUeifg7i1/pWnPJTnYlkCobAIhtQNF74dnU="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html",
-          "hash": "jhENDa0TINUkCQuIPCwi+w=="
+          "hash": "p20ZU+a4SzV7F4EFiEs9/foEnfdb13alu9Y2rJ1475A="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKey.html",
-          "hash": "x7t59wfmR5kPzo8tiRUrjw=="
+          "hash": "IUlsph6ZP8tbcJKJoWQxqzoV2Na+TFeoBuG4CmvGYAQ="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKeyStates.html",
-          "hash": "k2JqIcDsLriCTYsC87dweg=="
+          "hash": "B0f4u1LfQ3GuSFBU6ZBeqLwVOBMXSomMErEnOiSxB7Q="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraMouseKeys.html",
-          "hash": "Zt9VpNMtMw1kS0ZfoRJqpg=="
+          "hash": "WutBCQWPU54IiTD8najZXWWmkYxJxG336dWMwgypXNk="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.html",
-          "hash": "BJpgRoza4l6DW47PmkPT8w=="
+          "hash": "s8YR7rPUDTtuinZBVQhE13isDKZSzrBnKu0bbomXYR0="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html",
-          "hash": "CJdEcYPcW6bGpMBDF+r2vw=="
+          "hash": "nreJ4QhcEQuXL+2M8DiPgSZOaRcGE9akMqxjHb01eqs="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.html",
-          "hash": "orScHuZ+bU2e3VWK3LxKrA=="
+          "hash": "eQSaSAfVp1dqdwfDJudv0uSiY9AFRvBFEs7Ae4cIolI="
         }
       },
       "is_incremental": false,
@@ -114,19 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "9e+2zzOEaIvzTxtucEXeVg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "x4SLaK/RvhCRtLk1tTSWcg=="
+          "hash": "P0MnPInt6Gz/0nlChP7Hy4zP85P/vYn+Mvmh82b329o="
         }
       },
       "is_incremental": false,
@@ -138,19 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "bm7bBJ9SFXYetDXQNoLZCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html",
-          "hash": "3A092RIkcfBSe3NslfISEg=="
+          "hash": "Sm1fpz8hfrL4gfC2DRTG6lK7MrffSDCgp2eiC5gibKk="
         }
       },
       "is_incremental": false,
