@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeremyAnsel.DirectX.SdkCamera", "JeremyAnsel.DirectX.SdkCamera\JeremyAnsel.DirectX.SdkCamera.csproj", "{DA0F68CF-7125-4109-B0F5-680B300A263E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeremyAnsel.DirectX.SdkCamera", "JeremyAnsel.DirectX.SdkCamera\JeremyAnsel.DirectX.SdkCamera.csproj", "{087C5C08-9827-4697-AA25-F4BAE102A4F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{01467D83-01FD-46CC-8377-B4007BBF240D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{89851C27-EB47-4016-BB03-BC2204ECCECE}"
 	ProjectSection(ProjectDependencies) = postProject
-		{DA0F68CF-7125-4109-B0F5-680B300A263E} = {DA0F68CF-7125-4109-B0F5-680B300A263E}
+		{087C5C08-9827-4697-AA25-F4BAE102A4F6} = {087C5C08-9827-4697-AA25-F4BAE102A4F6}
 	EndProjectSection
 EndProject
 Global
@@ -16,19 +16,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA0F68CF-7125-4109-B0F5-680B300A263E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA0F68CF-7125-4109-B0F5-680B300A263E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA0F68CF-7125-4109-B0F5-680B300A263E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA0F68CF-7125-4109-B0F5-680B300A263E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01467D83-01FD-46CC-8377-B4007BBF240D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01467D83-01FD-46CC-8377-B4007BBF240D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01467D83-01FD-46CC-8377-B4007BBF240D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01467D83-01FD-46CC-8377-B4007BBF240D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087C5C08-9827-4697-AA25-F4BAE102A4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087C5C08-9827-4697-AA25-F4BAE102A4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087C5C08-9827-4697-AA25-F4BAE102A4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087C5C08-9827-4697-AA25-F4BAE102A4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89851C27-EB47-4016-BB03-BC2204ECCECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89851C27-EB47-4016-BB03-BC2204ECCECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89851C27-EB47-4016-BB03-BC2204ECCECE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {354BBF8A-BE25-45A1-BA74-ACBF06426878}
+		SolutionGuid = {5CD0E02A-0C6A-4AF3-A135-3D350139EB77}
 	EndGlobalSection
 EndGlobal
