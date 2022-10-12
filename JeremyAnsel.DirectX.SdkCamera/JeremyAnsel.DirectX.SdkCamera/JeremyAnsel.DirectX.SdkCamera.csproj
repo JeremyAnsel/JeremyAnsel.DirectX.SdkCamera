@@ -35,7 +35,7 @@
 
   <ItemGroup>
     <PackageReference Include="JeremyAnsel.DirectX.DXMath" Version="3.0.24" />
-    <PackageReference Include="JeremyAnsel.DirectX.Window" Version="3.0.41" />
+    <PackageReference Include="JeremyAnsel.DirectX.Window" Version="3.0.42" />
     <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
