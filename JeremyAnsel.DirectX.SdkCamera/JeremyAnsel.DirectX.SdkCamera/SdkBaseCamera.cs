@@ -296,7 +296,7 @@ namespace JeremyAnsel.DirectX.SdkCamera
                 case WindowMessageType.MouseWheel:
                     {
                         // Update member var state
-                        m_nMouseWheelDelta += (short)((uint)wParam >> 16);
+                        m_nMouseWheelDelta += (short)((ulong)wParam >> 16);
                         break;
                     }
             }
