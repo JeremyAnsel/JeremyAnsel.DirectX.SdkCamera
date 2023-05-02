@@ -16,8 +16,7 @@
       "source_relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html",
-          "hash": "bETXFrF1/7vp+tTQweF0LtM3wq+wMzFxHiRgrZWQtnU="
+          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html"
         }
       },
       "version": ""
@@ -27,8 +26,7 @@
       "source_relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html",
-          "hash": "8DBW5mKWDJ3e+hmh0zAxNL7pJCR/5ZBz0gTBFxo4qlw="
+          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html"
         }
       },
       "version": ""
@@ -38,8 +36,7 @@
       "source_relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKey.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKey.html",
-          "hash": "bGeuIf84Vy+IP77dlmEniwLlkAFRBYhhx5MslV+a3TE="
+          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKey.html"
         }
       },
       "version": ""
@@ -49,8 +46,7 @@
       "source_relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKeyStates.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKeyStates.html",
-          "hash": "0vUcMkfCNUDrT/Ypx5GeyrLPZ7x3omqJCXi2jGP+k0M="
+          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKeyStates.html"
         }
       },
       "version": ""
@@ -60,8 +56,7 @@
       "source_relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraMouseKeys.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraMouseKeys.html",
-          "hash": "mgOD0/UuBFYfUUHZ1f/8bqn0aQB8UpnbvS1OJAHLwgM="
+          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraMouseKeys.html"
         }
       },
       "version": ""
@@ -71,8 +66,7 @@
       "source_relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.html",
-          "hash": "m+UCiEVGe4Ek0DuWFu7s9jKSSeYeHWzkK6Zs7TSjHng="
+          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.html"
         }
       },
       "version": ""
@@ -82,8 +76,7 @@
       "source_relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html",
-          "hash": "plkBwbOTLUCPwTpKG1hNuVJV8bVNd4a0OXToIhihldM="
+          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html"
         }
       },
       "version": ""
@@ -93,8 +86,7 @@
       "source_relative_path": "api/JeremyAnsel.DirectX.SdkCamera.yml",
       "output": {
         ".html": {
-          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.html",
-          "hash": "Ess0UPohYSF5I8IxaKLKVEQCbP3zT8mv4SU8boAEjmw="
+          "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.html"
         }
       },
       "version": ""
@@ -104,8 +96,7 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "uBZVJ4sSbpmQ2ndLoFZUTNSNL+0s9yrOwgn0vd+6TUA="
+          "relative_path": "api/index.html"
         }
       },
       "version": ""
@@ -115,8 +106,7 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "bNtg1YzBM+2/7+uoCrBTy5tZlM8rJAtFsdNXe5W9F8k="
+          "relative_path": "index.html"
         }
       },
       "version": ""
