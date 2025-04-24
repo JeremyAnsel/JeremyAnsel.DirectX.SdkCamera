@@ -18,7 +18,11 @@
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkArcBall.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.SdkCamera.SdkArcBall",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.SdkCamera.SdkBaseCamera.yml\" sourcestartlinenumber=\"1\">Simple base camera class that moves and rotates.\nThe base class records mouse and keyboard input for use by a derived class, and keeps common state.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKey.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.SdkCamera.SdkCameraKey",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraKeyStates.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.SdkCamera.SdkCameraKeyStates",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkCameraMouseKeys.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.SdkCamera.SdkCameraMouseKeys",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -68,7 +88,11 @@
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.SdkCamera.SdkFirstPersonCamera.yml\" sourcestartlinenumber=\"1\">Simple first person camera class that moves and rotates.\nIt allows yaw and pitch but not roll.  It uses WM_KEYDOWN and GetCursorPos() to respond to keyboard and mouse input and updates the view matrix based on input.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -78,7 +102,11 @@
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera",
+      "Summary": "<p sourcefile=\"api/JeremyAnsel.DirectX.SdkCamera.SdkModelViewerCamera.yml\" sourcestartlinenumber=\"1\">Simple model viewing camera class that rotates around the object.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +116,11 @@
           "relative_path": "api/JeremyAnsel.DirectX.SdkCamera.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "JeremyAnsel.DirectX.SdkCamera",
+      "Summary": null
     },
     {
       "type": "Conceptual",
