@@ -45,7 +45,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="JeremyAnsel.DirectX.DXMath" Version="3.0.37" />
-    <PackageReference Include="JeremyAnsel.DirectX.Window" Version="3.0.54" />
+    <PackageReference Include="JeremyAnsel.DirectX.Window" Version="3.0.55" />
     <PackageReference Condition="'$(CI)' == 'True'" Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
